@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // Mengimpor komponen Button dari file "../Elements-atom/Button"
 import Button from "../Elements-atom/Button";
 
