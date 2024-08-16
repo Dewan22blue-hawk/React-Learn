@@ -18,6 +18,7 @@ import RegisterPage from "./Pages/register.jsx";
 // Mengimpor komponen RegisterPage dari file register.jsx.
 
 import ErrorPage from "./Pages/404.jsx";
+import ProductPage from "./Pages/products.jsx";
 // Mengimpor komponen ErrorPage dari file 404.jsx yang akan ditampilkan saat terjadi error (misalnya, halaman tidak ditemukan).
 
 // Membuat objek router menggunakan createBrowserRouter.
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <RegisterPage />,
+    // Rute "/register" akan menampilkan komponen RegisterPage.
+  },
+  {
+    path: "/products",
+    element: <ProductPage />,
     // Rute "/register" akan menampilkan komponen RegisterPage.
   },
 ]);
